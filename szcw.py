@@ -3,13 +3,7 @@
 #    主营业务收入增长的含金量
 #    净利润 net_profit
 # 2.控制能力--成本控制
-# 3.营运能力
-# 人、物、财的运用效率
-# 周转率和效率
-# 应收账款周转率,存货周转率
-# 货币资金的管理
-# 固定资产的营运效率
-# 总资产的营运效率
+
 # 4.盈利能力
 # 毛利率,净利润率,净资产收益率ROE
 # 5.偿还能力
@@ -20,7 +14,7 @@ from datetime import date
 from datetime import datetime, timedelta
 import pandas as pd
 
-watch_list = ['000001.XSHE', '000002.XSHE']
+watch_list = ['002078.XSHE', '002372.XSHE', '600522.XSHG', '000501.XSHE', '600176.XSHG', '601009.XSHG', '600373.XSHG', '600066.XSHG']
 all_stcok = get_all_securities(['stock'])
 now = datetime.now()
 year_now = now.year
